@@ -36,6 +36,7 @@ router ospf 123
  router-id 3.3.3.2
  auto-cost reference-bandwidth 1000
  network 192.168.0.0 0.0.0.3 area 0
+ network 192.168.1.0 0.0.0.255 area 0
  lsh flash:/enarsi/reset.tcl
 end
 clear ip ospf process
